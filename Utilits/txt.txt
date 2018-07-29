@@ -1,0 +1,3 @@
+GDAL_DATA=c:\Program Files\GDAL\gdal-data
+GDAL_DRIVER_PATH=c:\Program Files\GDAL\gdalplugins
+PATH=c:\Program Files\GDAL

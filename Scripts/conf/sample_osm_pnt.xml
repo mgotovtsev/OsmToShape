@@ -1,0 +1,1314 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<OSM_layer_extraction>
+	<References>
+	
+	<!-- POINTS -->
+
+  	<Relation LayerName = "aerialway_pnt"			LayerType = "POINT"		FieldPattern = "aerialway_tag_table"		Condition = "aerialway_pnt_filter_condition_table"/>
+	<Relation LayerName = "aeroway_pnt"				LayerType = "POINT"		FieldPattern = "aeroway_tag_table"			Condition = "aeroway_pnt_filter_condition_table"/>
+	<Relation LayerName = "amenity_pnt"				LayerType = "POINT"		FieldPattern = "amenity_tag_table"			Condition = "amenity_pnt_filter_condition_table"/>
+	<Relation LayerName = "barrier_pnt"				LayerType = "POINT"		FieldPattern = "barrier_tag_table"			Condition = "barrier_pnt_filter_condition_table"/>
+	<Relation LayerName = "craft_pnt"				LayerType = "POINT"		FieldPattern = "craft_tag_table"			Condition = "craft_pnt_filter_condition_table"/>
+	<Relation LayerName = "emergency_pnt"			LayerType = "POINT"		FieldPattern = "emergency_tag_table"		Condition = "emergency_pnt_filter_condition_table"/>
+	<Relation LayerName = "geological_pnt"			LayerType = "POINT"		FieldPattern = "geological_tag_table"		Condition = "geological_pnt_filter_condition_table"/>
+	<Relation LayerName = "historic_pnt"			LayerType = "POINT"		FieldPattern = "historic_tag_table"			Condition = "historic_pnt_filter_condition_table"/>
+	<Relation LayerName = "landuse_pnt"				LayerType = "POINT"		FieldPattern = "landuse_tag_table"			Condition = "landuse_pnt_filter_condition_table"/>
+	<Relation LayerName = "leisure_pnt"				LayerType = "POINT"		FieldPattern = "leisure_tag_table"			Condition = "leisure_pnt_filter_condition_table"/>
+	<Relation LayerName = "man_made_pnt"			LayerType = "POINT"		FieldPattern = "man_made_tag_table"			Condition = "man_made_pnt_filter_condition_table"/>
+	<Relation LayerName = "military_pnt"			LayerType = "POINT"		FieldPattern = "military_tag_table"			Condition = "military_pnt_filter_condition_table"/>
+	<Relation LayerName = "natural_pnt"				LayerType = "POINT"		FieldPattern = "natural_tag_table"			Condition = "natural_pnt_filter_condition_table"/>
+	<Relation LayerName = "office_pnt"				LayerType = "POINT"		FieldPattern = "office_tag_table"			Condition = "office_pnt_filter_condition_table"/>
+	<Relation LayerName = "place_pnt"				LayerType = "POINT"		FieldPattern = "place_tag_table"			Condition = "place_pnt_filter_condition_table"/>
+	<Relation LayerName = "power_pnt"				LayerType = "POINT"		FieldPattern = "power_tag_table"			Condition = "power_pnt_filter_condition_table"/>
+	<Relation LayerName = "public_transport_pnt"	LayerType = "POINT"		FieldPattern = "public_transport_tag_table"	Condition = "public_transport_pnt_filter_condition_table"/>
+	<Relation LayerName = "railway_pnt"				LayerType = "POINT"		FieldPattern = "railway_tag_table"			Condition = "railway_pnt_filter_condition_table"/>
+	<Relation LayerName = "shop_pnt"				LayerType = "POINT"		FieldPattern = "shop_tag_table"				Condition = "shop_pnt_filter_condition_table"/>
+	<Relation LayerName = "sport_pnt"				LayerType = "POINT"		FieldPattern = "sport_tag_table"			Condition = "sport_pnt_filter_condition_table"/>
+	<Relation LayerName = "tourism_pnt"				LayerType = "POINT"		FieldPattern = "tourism_tag_table"			Condition = "tourism_pnt_filter_condition_table"/>
+	<Relation LayerName = "traffic_calming_pnt"		LayerType = "POINT"		FieldPattern = "traffic_calming_tag_table"	Condition = "traffic_calming_pnt_filter_condition_table"/>
+	<Relation LayerName = "traffic_pnt"				LayerType = "POINT"		FieldPattern = "traffic_tag_table"			Condition = "traffic_pnt_filter_condition_table"/>
+
+	<!-- POLYLINES -->
+	
+<!--
+	<Relation LayerName = "highway_ln"				LayerType = "POLYLINE"	FieldPattern = "highway_tag_table"			Condition = "highway_ln_filter_condition_table"/>
+	<Relation LayerName = "aerialway_ln"				LayerType = "POLYLINE"	FieldPattern = "aerialway_tag_table"		Condition = "aerialway_ln_filter_condition_table"/>
+	<Relation LayerName = "barrier_ln"				LayerType = "POLYLINE"	FieldPattern = "barrier_tag_table"			Condition = "barrier_ln_filter_condition_table"/>
+	<Relation LayerName = "boundary_ln"				LayerType = "POLYLINE"	FieldPattern = "boundary_tag_table"			Condition = "boundary_ln_filter_condition_table"/>
+ 	<Relation LayerName = "man_made_ln"				LayerType = "POLYLINE"	FieldPattern = "man_made_tag_table"			Condition = "man_made_ln_filter_condition_table"/>
+	<Relation LayerName = "natural_ln"				LayerType = "POLYLINE"	FieldPattern = "natural_tag_table"			Condition = "natural_ln_filter_condition_table"/>
+	<Relation LayerName = "power_ln"				LayerType = "POLYLINE"	FieldPattern = "power_tag_table"			Condition = "power_ln_filter_condition_table"/>
+	<Relation LayerName = "public_transport_ln"		LayerType = "POLYLINE"	FieldPattern = "public_transport_tag_table"	Condition = "public_transport_ln_filter_condition_table"/>
+	<Relation LayerName = "railway_ln"				LayerType = "POLYLINE"	FieldPattern = "railway_tag_table"			Condition = "railway_ln_filter_condition_table"/>
+	<Relation LayerName = "route_ln"				LayerType = "POLYLINE"	FieldPattern = "route_tag_table"			Condition = "route_ln_filter_condition_table"/>
+	<Relation LayerName = "sport_ln"				LayerType = "POLYLINE"	FieldPattern = "sport_tag_table"			Condition = "sport_ln_filter_condition_table"/>
+	<Relation LayerName = "traffic_calming_ln"		LayerType = "POLYLINE"	FieldPattern = "traffic_calming_tag_table"	Condition = "traffic_calming_ln_filter_condition_table"/>
+	<Relation LayerName = "waterway_ln"				LayerType = "POLYLINE"	FieldPattern = "waterway_tag_table"			Condition = "waterway_ln_filter_condition_table"/>
+-->
+
+	<!-- POLYGONS -->
+	
+<!--
+	<Relation LayerName = "boundary_ply"			LayerType = "POLYGON"	FieldPattern = "boundary_tag_table"			Condition = "boundary_ply_filter_condition_table"/>
+
+	<Relation LayerName = "natural_ply"				LayerType = "POLYGON"	FieldPattern = "natural_tag_table"			Condition = "natural_ply_filter_condition_table"/>
+	<Relation LayerName = "water_ply"				LayerType = "POLYGON"	FieldPattern = "waterway_tag_table"			Condition = "water_ply_filter_condition_table"/>
+	<Relation LayerName = "waterway_ply"			LayerType = "POLYGON"	FieldPattern = "waterway_tag_table"			Condition = "waterway_ply_filter_condition_table"/>
+
+   	<Relation LayerName = "aerialway_ply"			LayerType = "POLYGON"	FieldPattern = "aerialway_tag_table"		Condition = "aerialway_ply_filter_condition_table"/>
+ 	<Relation LayerName = "aeroway_ply"				LayerType = "POLYGON"	FieldPattern = "aeroway_tag_table"			Condition = "aeroway_ply_filter_condition_table"/>
+	<Relation LayerName = "amenity_ply"				LayerType = "POLYGON"	FieldPattern = "amenity_tag_table"			Condition = "amenity_ply_filter_condition_table"/>
+	<Relation LayerName = "barrier_ply"				LayerType = "POLYGON"	FieldPattern = "barrier_tag_table"			Condition = "barrier_ply_filter_condition_table"/>
+	<Relation LayerName = "building_ply"			LayerType = "POLYGON"	FieldPattern = "building_tag_table"			Condition = "building_ply_filter_condition_table"/>
+	<Relation LayerName = "craft_ply"				LayerType = "POLYGON"	FieldPattern = "craft_tag_table"			Condition = "craft_ply_filter_condition_table"/>
+	<Relation LayerName = "emergency_ply"			LayerType = "POLYGON"	FieldPattern = "emergency_tag_table"		Condition = "emergency_ply_filter_condition_table"/>
+	<Relation LayerName = "geological_ply"			LayerType = "POLYGON"	FieldPattern = "geological_tag_table"		Condition = "geological_ply_filter_condition_table"/>
+	<Relation LayerName = "historic_ply"			LayerType = "POLYGON"	FieldPattern = "historic_tag_table"			Condition = "historic_ply_filter_condition_table"/>
+	<Relation LayerName = "landuse_ply"				LayerType = "POLYGON"	FieldPattern = "landuse_tag_table"			Condition = "landuse_ply_filter_condition_table"/>
+	<Relation LayerName = "leisure_ply"				LayerType = "POLYGON"	FieldPattern = "leisure_tag_table"			Condition = "leisure_ply_filter_condition_table"/>
+	<Relation LayerName = "man_made_ply"			LayerType = "POLYGON"	FieldPattern = "man_made_tag_table"			Condition = "man_made_ply_filter_condition_table"/>
+	<Relation LayerName = "military_ply"			LayerType = "POLYGON"	FieldPattern = "military_tag_table"			Condition = "military_ply_filter_condition_table"/>
+	<Relation LayerName = "office_ply"				LayerType = "POLYGON"	FieldPattern = "office_tag_table"			Condition = "office_ply_filter_condition_table"/>
+	<Relation LayerName = "place_ply"				LayerType = "POLYGON"	FieldPattern = "place_tag_table"			Condition = "place_ply_filter_condition_table"/>
+	<Relation LayerName = "power_ply"				LayerType = "POLYGON"	FieldPattern = "power_tag_table"			Condition = "power_ply_filter_condition_table"/>
+	<Relation LayerName = "public_transport_ply"	LayerType = "POLYGON"	FieldPattern = "public_transport_tag_table"	Condition = "public_transport_ply_filter_condition_table"/>
+	<Relation LayerName = "railway_ply"				LayerType = "POLYGON"	FieldPattern = "railway_tag_table"			Condition = "railway_ply_filter_condition_table"/>
+	<Relation LayerName = "shop_ply"				LayerType = "POLYGON"	FieldPattern = "shop_tag_table"				Condition = "shop_ply_filter_condition_table"/>
+	<Relation LayerName = "sport_ply"				LayerType = "POLYGON"	FieldPattern = "sport_tag_table"			Condition = "sport_ply_filter_condition_table"/>
+	<Relation LayerName = "tourism_ply"				LayerType = "POLYGON"	FieldPattern = "tourism_tag_table"			Condition = "tourism_ply_filter_condition_table"/>
+-->
+
+	<!-- POLYLINES from Way and Relation -->
+<!-- 	<Relation LayerName = "restriction_ln"			LayerType = "LineRel"	FieldPattern = "restriction_tag_table"		Condition = "restriction_ln_filter_condition_table"/> -->
+
+	<!-- TABLES -->	
+<!-- 	<Relation LayerName = "contact"					LayerType = "Table"		FieldPattern = "contact_tag_table"			Condition = "contact_filter_condition_table"/>
+	<Relation LayerName = "addresses"				LayerType = "Table"		FieldPattern = "addresses_tag_table"		Condition = "addresses_filter_condition_table"/>
+	<Relation LayerName = "annotation"				LayerType = "Table"		FieldPattern = "annotation_tag_table"		Condition = "annotation_filter_condition_table"/>
+	<Relation LayerName = "name"					LayerType = "Table"		FieldPattern = "name_tag_table"				Condition = "name_filter_condition_table"/>
+	<Relation LayerName = "properties"				LayerType = "Table"		FieldPattern = "properties_tag_table"		Condition = "properties_filter_condition_table"/>
+	<Relation LayerName = "references"				LayerType = "Table"		FieldPattern = "references_tag_table"		Condition = "references_filter_condition_table"/>
+	<Relation LayerName = "smoothness"				LayerType = "Table"		FieldPattern = "smoothness_tag_table"		Condition = "smoothness_filter_condition_table"/> -->
+	
+	</References>
+
+	<Field_patterns>
+	<Pattern name = "aerialway_tag_table">
+		<Field TagName = "aerialway" FieldName = "aerialway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "aerialway:access" FieldName = "access" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "aerialway:bicycle" FieldName = "bicycle" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "aerialway:bubble" FieldName = "bubble" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "aerialway:capacity" FieldName = "capacity" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "aerialway:duration" FieldName = "duration" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "aerialway:heating" FieldName = "heating" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "aerialway:occupancy" FieldName = "occupancy" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building" FieldName = "building" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ele" FieldName = "ele" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "height" FieldName = "height" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "layer" FieldName = "layer" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "operator" FieldName = "operator" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "public_transport" FieldName = "pblc_trnpt" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ref" FieldName = "ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "aeroway_tag_table">
+		<Field TagName = "aeroway" FieldName = "aeroway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "access" FieldName = "access" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building" FieldName = "building" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ele" FieldName = "ele" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "iata" FieldName = "iata" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "icao" FieldName = "icao" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "layer" FieldName = "layer" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "length" FieldName = "length" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "operator" FieldName = "operator" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ref" FieldName = "ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "surface" FieldName = "surface" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "width" FieldName = "width" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "amenity_tag_table">
+		<Field TagName = "amenity" FieldName = "amenity" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "access" FieldName = "access" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "atm" FieldName = "atm" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bicycle_parking" FieldName = "bccl_prkng" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "brand" FieldName = "brand" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building" FieldName = "building" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building:levels" FieldName = "levels" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "capacity" FieldName = "capacity" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "colour" FieldName = "colour" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "covered" FieldName = "covered" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "cuisine" FieldName = "cuisine" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "denomination" FieldName = "dnmntn" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ele" FieldName = "ele" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "fee" FieldName = "fee" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "highway" FieldName = "highway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "historic" FieldName = "historic" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "is_in:county" FieldName = "county" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "is_in:state" FieldName = "state" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "landuse" FieldName = "landuse" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "material" FieldName = "material" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "opening_hours" FieldName = "opening_hr" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "operator" FieldName = "operator" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "park_ride" FieldName = "park_ride" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "parking" FieldName = "parking" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "rating" FieldName = "rating" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "religion" FieldName = "religion" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "seats" FieldName = "seats" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "smoking" FieldName = "smoking" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "supervised" FieldName = "supervised" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "surface" FieldName = "surface" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "vending" FieldName = "vending" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "wheelchair" FieldName = "wheelchair" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "historic_tag_table">
+		<Field TagName = "historic" FieldName = "historic" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "access" FieldName = "access" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building" FieldName = "building" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bunker_type" FieldName = "bunker_tp" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "castle_type" FieldName = "castle_tp" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "denomination" FieldName = "dnmntn" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "height" FieldName = "height" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "heritage" FieldName = "heritage" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "memorial" FieldName = "memorial" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "memorial:type" FieldName = "memrl_type" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "military" FieldName = "military" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "religion" FieldName = "religion" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ruins" FieldName = "ruins" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "site_type" FieldName = "site_type" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "start_date" FieldName = "start_date" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tomb" FieldName = "tomb" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tourism" FieldName = "tourism" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "wheelchair" FieldName = "wheelchair" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "landuse_tag_table">
+		<Field TagName = "landuse" FieldName = "landuse" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "access" FieldName = "access" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "crop" FieldName = "crop" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ele" FieldName = "ele" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "golf" FieldName = "golf" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "man_made" FieldName = "man_made" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "meadow" FieldName = "meadow" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "owner" FieldName = "owner" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "protected" FieldName = "protected" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "residential" FieldName = "residentl" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "trees" FieldName = "trees" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "wood" FieldName = "wood" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "leisure_tag_table">
+		<Field TagName = "leisure" FieldName = "leisure" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "access" FieldName = "access" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "barrier" FieldName = "barrier" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ele" FieldName = "ele" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "golf" FieldName = "golf" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "sport" FieldName = "sport" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "surface" FieldName = "surface" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "natural_tag_table">
+		<Field TagName = "natural" FieldName = "natural" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "boat" FieldName = "boat" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "circumference" FieldName = "circumfrnc" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "denotation" FieldName = "denotation" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "diameter_crown" FieldName = "dmtr_crown" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ele" FieldName = "ele" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "genus" FieldName = "genus" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "height" FieldName = "height" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "intermittent" FieldName = "intermttnt" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "landuse" FieldName = "landuse" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "layer" FieldName = "layer" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "leaf_cycle" FieldName = "leaf_cycle" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "leaf_type" FieldName = "leaf_type" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "length" FieldName = "length" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "length_unit" FieldName = "length_unt" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "seasonal" FieldName = "seasonal" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "species" FieldName = "species" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "stream" FieldName = "stream" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "taxon" FieldName = "taxon" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tunnel" FieldName = "tunnel" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "wetland" FieldName = "wetland" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "width" FieldName = "width" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "wood" FieldName = "wood" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "shop_tag_table">
+		<Field TagName = "shop" FieldName = "shop" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "branch" FieldName = "branch" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "brand" FieldName = "brand" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building" FieldName = "building" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building:levels" FieldName = "levels" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "clothes" FieldName = "clothes" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "cuisine" FieldName = "cuisine" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "internet_access" FieldName = "intrnt_acs" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "level" FieldName = "level" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "opening_hours" FieldName = "opening_hr" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "operator" FieldName = "operator" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "organic" FieldName = "organic" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "origin" FieldName = "origin" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "payment" FieldName = "payment" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "second_hand" FieldName = "second_hnd" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "service" FieldName = "service" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "start_date" FieldName = "start_date" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "wheelchair" FieldName = "wheelchair" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "wholesale" FieldName = "wholesale" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "place_tag_table">
+		<Field TagName = "place" FieldName = "place" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "admin_level" FieldName = "admin_lvl" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "border_type" FieldName = "border_tp" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "boundary" FieldName = "boundary" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "capital" FieldName = "capital" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "census:population" FieldName = "population" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ele" FieldName = "ele" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "is_capital" FieldName = "is_capital" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "is_in" FieldName = "is_in" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "is_in:country" FieldName = "country" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "is_in:state" FieldName = "state" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "official_status" FieldName = "off_status" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "place_name" FieldName = "place_name" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "population" FieldName = "population" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "population:date" FieldName = "popul_date" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "postal_code" FieldName = "postal_cd" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "reference_point" FieldName = "refer_pnt" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "tourism_tag_table">
+		<Field TagName = "tourism" FieldName = "tourism" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "amenity" FieldName = "amenity" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "artist_name" FieldName = "artist_nm" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "artwork_type" FieldName = "artwrk_tp" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "attraction" FieldName = "attraction" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "backcountry" FieldName = "backcountr" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "beds" FieldName = "beds" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bicycle" FieldName = "bicycle" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "board_type" FieldName = "board_type" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building" FieldName = "building" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building:levels" FieldName = "levels" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "caravans" FieldName = "caravans" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "castle_type" FieldName = "castle_tp" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "cuisine" FieldName = "cuisine" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "description" FieldName = "descriptn" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ele" FieldName = "ele" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "fireplace" FieldName = "fireplace" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "guidepost" FieldName = "guidepost" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "height" FieldName = "height" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "hiking" FieldName = "hiking" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "information" FieldName = "informatn" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "internet_access" FieldName = "intrnt_acs" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "map_size" FieldName = "map_size" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "map_type" FieldName = "map_type" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "maxtents" FieldName = "maxtents" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "mtb" FieldName = "mtb" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "natural" FieldName = "natural" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "openfire" FieldName = "openfire" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "opening_hours" FieldName = "opening_hr" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "operator" FieldName = "operator" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "power_supply" FieldName = "pow_supply" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "rooms" FieldName = "rooms" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ski" FieldName = "ski" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "smoking" FieldName = "smoking" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "stars" FieldName = "stars" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "start_date" FieldName = "start_date" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tents" FieldName = "tents" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "wheelchair" FieldName = "wheelchair" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "railway_tag_table">
+		<Field TagName = "railway" FieldName = "railway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bridge" FieldName = "bridge" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "electrified" FieldName = "electrifd" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "frequency" FieldName = "frequency" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "gauge" FieldName = "gauge" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "highspeed" FieldName = "highspeed" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "layer" FieldName = "layer" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "maxspeed" FieldName = "maxspeed" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "old_railway_operator" FieldName = "old_opertr" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "operator" FieldName = "operator" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "public_transport" FieldName = "pblc_trnpt" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "railway:radio" FieldName = "radio" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "railway:traffic_mode" FieldName = "traff_mode" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "service" FieldName = "service" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tracks" FieldName = "tracks" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "train" FieldName = "train" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tram" FieldName = "tram" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "usage" FieldName = "usage" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "voltage" FieldName = "voltage" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "traffic_calming_tag_table">
+		<Field TagName = "traffic" FieldName = "traffic" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "access" FieldName = "access" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bicycle" FieldName = "bicycle" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "crossing" FieldName = "crossing" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "cycleway" FieldName = "cycleway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "direction" FieldName = "direction" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "highway" FieldName = "highway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "lanes" FieldName = "lanes" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "lit" FieldName = "lit" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "maxspeed" FieldName = "maxspeed" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "oneway" FieldName = "oneway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ref" FieldName = "ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "sidewalk" FieldName = "sidewalk" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "surface" FieldName = "surface" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "traffic_tag_table">
+		<Field TagName = "traffic" FieldName = "traffic" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bench" FieldName = "bench" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bicycle" FieldName = "bicycle" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bin" FieldName = "bin" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "crossing" FieldName = "crossing" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "direction" FieldName = "direction" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "enforcement" FieldName = "enforcemnt" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "exit_to" FieldName = "exit_to" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "lamp_flames" FieldName = "lamp_flams" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "lamp_mount" FieldName = "lamp_mount" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "lamp_operator" FieldName = "operator" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "lamp_type" FieldName = "lamp_type" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "lit" FieldName = "lit" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "maxspeed" FieldName = "maxspeed" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ref" FieldName = "ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "shelter" FieldName = "shelter" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "supervised" FieldName = "supervised" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "traffic_sign" FieldName = "sign" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "traffic_signals:direction" FieldName = "direction" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "wheelchair" FieldName = "wheelchair" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "public_transport_tag_table">
+		<Field TagName = "public_transport" FieldName = "pblc_trnpt" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bench" FieldName = "bench" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bus" FieldName = "bus" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "highway" FieldName = "highway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "network" FieldName = "network" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "operator" FieldName = "operator" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "railway" FieldName = "railway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ref" FieldName = "ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "shelter" FieldName = "shelter" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "train" FieldName = "train" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tram" FieldName = "tram" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "wheelchair" FieldName = "wheelchair" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "power_tag_table">
+		<Field TagName = "power" FieldName = "power" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building" FieldName = "building" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "cables" FieldName = "cables" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "circuits" FieldName = "circuits" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "design" FieldName = "design" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "frequency" FieldName = "frequency" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "generator:method" FieldName = "method" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "generator:output:electricity" FieldName = "electricit" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "generator:source" FieldName = "source" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "generator:type" FieldName = "type" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "line" FieldName = "line" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "location" FieldName = "location" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "manufacturer" FieldName = "manufactur" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "manufacturer:type" FieldName = "man_type" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "material" FieldName = "material" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "operator" FieldName = "operator" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "phases" FieldName = "phases" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "plant:output:electricity" FieldName = "electricit" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "pole" FieldName = "pole" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "power_rating" FieldName = "pow_rating" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "power_source" FieldName = "source" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "pylon:shape" FieldName = "pylon_shp" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "rating" FieldName = "rating" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "structure" FieldName = "structure" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "substation" FieldName = "substation" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tower" FieldName = "tower" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tower:material" FieldName = "tow_materl" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tower:shape" FieldName = "tow_shape" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "transformer" FieldName = "transformr" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "triple_tower" FieldName = "triple_tow" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "voltage" FieldName = "voltage" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "voltage-high" FieldName = "volt-high" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "voltage-low" FieldName = "volt-low" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "wires" FieldName = "wires" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "barrier_tag_table">
+		<Field TagName = "barrier" FieldName = "barrier" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "access" FieldName = "access" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bicycle" FieldName = "bicycle" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bollard" FieldName = "bollard" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "fence_type" FieldName = "fence_type" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "foot" FieldName = "foot" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "height" FieldName = "height" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "horse" FieldName = "horse" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "material" FieldName = "material" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "motor_vehicle" FieldName = "mtr_vehcl" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "motorcar" FieldName = "motorcar" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "motorcycle" FieldName = "motorcycle" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "steps" FieldName = "steps" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "stile" FieldName = "stile" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "wall" FieldName = "wall" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "emergency_tag_table">
+		<Field TagName = "emergency" FieldName = "emergency" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "access" FieldName = "access" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "amenity" FieldName = "amenity" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bicycle" FieldName = "bicycle" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "colour" FieldName = "colour" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "fire_hydrant:count" FieldName = "fh_count" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "fire_hydrant:couplings" FieldName = "fh_couplng" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "fire_hydrant:diameter" FieldName = "fh_diametr" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "fire_hydrant:position" FieldName = "fh_positn" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "fire_hydrant:pressure" FieldName = "fh_pressur" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "fire_hydrant:type" FieldName = "fh_type" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "fire_hydrant:water_source" FieldName = "fh_wtr_src" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "fire_operator" FieldName = "operator" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "foot" FieldName = "foot" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "highway" FieldName = "highway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "operator" FieldName = "operator" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "psv" FieldName = "psv" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ref" FieldName = "ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "taxi" FieldName = "taxi" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "working" FieldName = "working" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "craft_tag_table">
+		<Field TagName = "craft" FieldName = "craft" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building" FieldName = "building" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "carpenter" FieldName = "carpenter" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "opening_hours" FieldName = "opening_hr" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "operator" FieldName = "operator" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "shop" FieldName = "shop" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "geological_tag_table">
+		<Field TagName = "geological" FieldName = "geological" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "natural" FieldName = "natural" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "man_made_tag_table">
+		<Field TagName = "man_made" FieldName = "man_made" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bridge" FieldName = "bridge" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building" FieldName = "building" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "content" FieldName = "content" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "disused" FieldName = "disused" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ele" FieldName = "ele" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "floating" FieldName = "floating" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "height" FieldName = "height" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "layer" FieldName = "layer" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "location" FieldName = "location" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "mooring" FieldName = "mooring" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ref" FieldName = "ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "surveillance" FieldName = "surveillnc" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tower:type" FieldName = "tower_type" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "military_tag_table">
+		<Field TagName = "military" FieldName = "military" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "access" FieldName = "access" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "barrier" FieldName = "barrier" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building" FieldName = "building" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bunker_type" FieldName = "bunker_tp" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "disused" FieldName = "disused" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "historic" FieldName = "historic" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "location" FieldName = "location" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ruins" FieldName = "ruins" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "office_tag_table">
+		<Field TagName = "office" FieldName = "office" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "admin_level" FieldName = "admin_lvl" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "amenity" FieldName = "amenity" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building" FieldName = "building" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building:levels" FieldName = "levels" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "operator" FieldName = "operator" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "wheelchair" FieldName = "wheelchair" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "sport_tag_table">
+		<Field TagName = "sport" FieldName = "sport" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "access" FieldName = "access" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "amenity" FieldName = "amenity" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building" FieldName = "building" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "club" FieldName = "club" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "courts" FieldName = "courts" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "covered" FieldName = "covered" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "golf" FieldName = "golf" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "grass" FieldName = "grass" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "landuse" FieldName = "landuse" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "leisure" FieldName = "leisure" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "lit" FieldName = "lit" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "natural" FieldName = "natural" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "surface" FieldName = "surface" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "boundary_tag_table">
+		<Field TagName = "boundary" FieldName = "boundary" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "admin_level" FieldName = "admin_lvl" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "border_type" FieldName = "border_tp" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "is_in" FieldName = "is_in" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "is_in:country" FieldName = "country" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "is_in:state" FieldName = "state" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "maritime" FieldName = "maritime" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "nist:fips_code" FieldName = "fips_code" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "nist:state_fips" FieldName = "state_fips" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "place" FieldName = "place" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "population" FieldName = "population" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "postal_code" FieldName = "postal_cd" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "highway_tag_table">
+		<Field TagName = "highway" FieldName = "highway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "abutters" FieldName = "abutters" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "access" FieldName = "access" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "amenity" FieldName = "amenity" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bicycle" FieldName = "bicycle" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bicycle_road" FieldName = "bicycle_rd" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bridge" FieldName = "bridge" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bus" FieldName = "bus" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "carriageway_ref" FieldName = "carrgw_ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "condition" FieldName = "condition" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "construction" FieldName = "cnstrctn" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "conveying" FieldName = "conveying" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "crossing" FieldName = "crossing" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "cycleway" FieldName = "cycleway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "depth" FieldName = "depth" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "destination" FieldName = "destinatn" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "direction" FieldName = "direction" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "driving_side" FieldName = "driving_sd" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "est_width" FieldName = "est_width" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "exit_to" FieldName = "exit_to" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "flood_prone" FieldName = "flood_prn" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "foot" FieldName = "foot" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "footway" FieldName = "footway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "handrail" FieldName = "handrail" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "hazmat" FieldName = "hazmat" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "hgv" FieldName = "hgv" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "hgv:national_network" FieldName = "hgv_nat_nt" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "horse" FieldName = "horse" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ice_road" FieldName = "ice_road" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "incline" FieldName = "incline" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "int_ref" FieldName = "int_ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "junction" FieldName = "junction" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "kerb" FieldName = "kerb" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "lanes" FieldName = "lanes" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "layer" FieldName = "layer" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "lcn" FieldName = "lcn" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "lit" FieldName = "lit" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "living_street" FieldName = "livng_strt" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "loc_name" FieldName = "loc_name" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "loc_ref" FieldName = "loc_ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "maxaxleload" FieldName = "maxaxleld" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "maxheight" FieldName = "maxheight" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "maxspeed" FieldName = "maxspeed" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "maxweight" FieldName = "maxweight" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "minspeed" FieldName = "minspeed" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "moped" FieldName = "moped" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "motor_vehicle" FieldName = "mtr_vehcl" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "motorcar" FieldName = "motorcar" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "motorcycle" FieldName = "motorcycle" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "motorroad" FieldName = "motorroad" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "mountain_pass" FieldName = "mountn_pss" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "nat_ref" FieldName = "nat_ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ncn_ref" FieldName = "ncn_ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "NHS" FieldName = "NHS" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "noexit" FieldName = "noexit" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "old_ref" FieldName = "old_ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "oneway" FieldName = "oneway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "postal_code" FieldName = "postal_cd" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "proposed" FieldName = "proposed" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "psv" FieldName = "psv" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "public_transport" FieldName = "pblc_trnpt" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ref" FieldName = "ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "reg_ref" FieldName = "reg_ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "route" FieldName = "route" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "sac_scale" FieldName = "sac_scale" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "segregated" FieldName = "segregated" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "service" FieldName = "service" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "sidewalk" FieldName = "sidewalk" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "smoothness" FieldName = "smoothness" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "sport" FieldName = "sport" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "step_count" FieldName = "step_count" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "steps" FieldName = "steps" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "surface" FieldName = "surface" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tactile_paving" FieldName = "paving" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "toll" FieldName = "toll" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tracktype" FieldName = "tracktype" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "traffic_calming" FieldName = "traf_calm" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "traffic_sign" FieldName = "sign" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "trail_visibility" FieldName = "trail_vis" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tunnel" FieldName = "tunnel" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "vehicle" FieldName = "vehicle" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "wheelchair" FieldName = "wheelchair" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "width" FieldName = "width" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:cfcc" FieldName = "cfcc" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:county" FieldName = "county" Priority = "2" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_direction_prefix" FieldName = "nm_dir_pf" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_base" FieldName = "nm_base" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_type" FieldName = "nm_type" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_direction_suffix" FieldName = "nm_dir_suf" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_direction_prefix_1" FieldName = "nm_dr_pf_1" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_base_1" FieldName = "nm_base_1" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_type_1" FieldName = "nm_type_1" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_direction_suffix_1" FieldName = "nm_dr_sf_1" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_direction_prefix_2" FieldName = "nm_dr_pf_2" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_base_2" FieldName = "nm_base_2" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_type_2" FieldName = "nm_type_2" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_direction_suffix_2" FieldName = "nm_dr_sf_2" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_direction_prefix_3" FieldName = "nm_dr_pf_3" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_base_3" FieldName = "nm_base_3" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_type_3" FieldName = "nm_type_3" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_direction_suffix_3" FieldName = "nm_dr_sf_3" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_direction_prefix_4" FieldName = "nm_dr_pf_4" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_base_4" FieldName = "nm_base_4" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_type_4" FieldName = "nm_type_4" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_direction_suffix_4" FieldName = "nm_dr_sf_4" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_direction_prefix_5" FieldName = "nm_dr_pf_5" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_base_5" FieldName = "nm_base_5" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_type_5" FieldName = "nm_type_5" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_direction_suffix_5" FieldName = "nm_dr_sf_5" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_direction_prefix_6" FieldName = "nm_dr_pf_6" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_base_6" FieldName = "nm_base_6" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_type_6" FieldName = "nm_type_6" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:name_direction_suffix_6" FieldName = "nm_dr_sf_6" Priority = "1" FieldType = "String" FieldTypeLength = "30" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:zip_left" FieldName = "zip_left" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tiger:zip_right" FieldName = "zip_right" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "route_tag_table">
+		<Field TagName = "route" FieldName = "route" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "access" FieldName = "access" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "alternate" FieldName = "alternate" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "complete" FieldName = "complete" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "distance" FieldName = "distance" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "duration" FieldName = "duration" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "foot" FieldName = "foot" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "from" FieldName = "from" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "highway" FieldName = "highway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "motor_vehicle" FieldName = "mtr_vehcl" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "motorcar" FieldName = "motorcar" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "network" FieldName = "network" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "oneway" FieldName = "oneway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "operator" FieldName = "operator" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ref" FieldName = "ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "roundtrip" FieldName = "roundtrip" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "state" FieldName = "state" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "to" FieldName = "to" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "via" FieldName = "via" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "waterway_tag_table">
+		<Field TagName = "waterway" FieldName = "waterway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "alt_name" FieldName = "alt_name" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "boat" FieldName = "boat" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ele" FieldName = "ele" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "intermittent" FieldName = "intermttnt" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "is_in" FieldName = "is_in" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "layer" FieldName = "layer" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "length" FieldName = "length" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "length_unit" FieldName = "length_unt" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "lock" FieldName = "lock" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "mooring" FieldName = "mooring" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "motorboat" FieldName = "motorboat" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "salt" FieldName = "salt" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "seasonal" FieldName = "seasonal" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "service" FieldName = "service" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "stream" FieldName = "stream" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tunnel" FieldName = "tunnel" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "width" FieldName = "width" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "building_tag_table">
+		<Field TagName = "building" FieldName = "building" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "amenity" FieldName = "amenity" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building:fireproof" FieldName = "fireproof" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building:flats" FieldName = "flats" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building:levels" FieldName = "levels" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building:material" FieldName = "material" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "building:use" FieldName = "use" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "height" FieldName = "height" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "historic" FieldName = "historic" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "start_date" FieldName = "start_date" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "wall" FieldName = "wall" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "restriction_tag_table">
+		<Field TagName = "4wd_only" FieldName = "4wd_only" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "access" FieldName = "access" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "agricultural" FieldName = "agricultur" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "atv" FieldName = "atv" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bdouble" FieldName = "bdouble" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bicycle" FieldName = "bicycle" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "boat" FieldName = "boat" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "day_off" FieldName = "day_off" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "day_on" FieldName = "day_on" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "emergency" FieldName = "emergency" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "except" FieldName = "except" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "foot" FieldName = "foot" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "forestry" FieldName = "forestry" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "goods" FieldName = "goods" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "hazmat" FieldName = "hazmat" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "hgv" FieldName = "hgv" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "horse" FieldName = "horse" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "hour_off" FieldName = "hour_off" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "hour_on" FieldName = "hour_on" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "inline_skates" FieldName = "inln_skts" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "lhv" FieldName = "lhv" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "maxheight" FieldName = "maxheight" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "maxlength" FieldName = "maxlength" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "maxspeed" FieldName = "maxspeed" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "maxstay" FieldName = "maxstay" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "maxweight" FieldName = "maxweight" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "maxwidth" FieldName = "maxwidth" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "minspeed" FieldName = "minspeed" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "mofa" FieldName = "mofa" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "moped" FieldName = "moped" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "motor_vehicle" FieldName = "mtr_vehcl" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "motorboat" FieldName = "motorboat" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "motorcar" FieldName = "motorcar" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "motorcycle" FieldName = "motorcycle" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "noexit" FieldName = "noexit" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "oneway" FieldName = "oneway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "psv" FieldName = "psv" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "restriction" FieldName = "restrictn" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "restriction:agricultural" FieldName = "agricultrl" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "restriction:bicycle" FieldName = "bicycle" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "restriction:bus" FieldName = "bus" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "restriction:caravan" FieldName = "caravan" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "restriction:hazmat" FieldName = "hazmat" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "restriction:hgv" FieldName = "hgv" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "restriction:motorcar" FieldName = "motorcar" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "restriction:motorcycle" FieldName = "motorcycle" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "roadtrain" FieldName = "roadtrain" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "role" FieldName = "role" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ski" FieldName = "ski" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tank" FieldName = "tank" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "type" FieldName = "type" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "vehicle" FieldName = "vehicle" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "contact_tag_table">
+		<Field TagName = "contact:diaspora" FieldName = "diaspora" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "contact:email" FieldName = "email" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "contact:facebook" FieldName = "facebook" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "contact:fax" FieldName = "fax" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "contact:google_plus" FieldName = "google_pls" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "contact:instagram" FieldName = "instagram" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "contact:linkedin" FieldName = "linkedin" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "contact:phone" FieldName = "phone" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "contact:twitter" FieldName = "twitter" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "contact:vhf" FieldName = "vhf" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "contact:webcam" FieldName = "webcam" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "contact:website" FieldName = "website" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "contact:xing" FieldName = "ing" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "email" FieldName = "email" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "facebook" FieldName = "facebook" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "fax" FieldName = "fax" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "google_plus" FieldName = "google_pls" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "linkedin" FieldName = "linkedin" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "phone" FieldName = "phone" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "twitter" FieldName = "twitter" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "vhf" FieldName = "vhf" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "webcam" FieldName = "webcam" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "website" FieldName = "website" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "addresses_tag_table">
+		<Field TagName = "addr:city" FieldName = "city" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "addr:country" FieldName = "country" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "addr:district" FieldName = "district" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "addr:flats" FieldName = "flats" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "addr:full" FieldName = "full" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "addr:hamlet" FieldName = "hamlet" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "addr:housename" FieldName = "housename" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "addr:housenumber" FieldName = "housenumbr" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "addr:inclusion" FieldName = "inclusion" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "addr:interpolation" FieldName = "interpoltn" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "addr:place" FieldName = "place" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "addr:postcode" FieldName = "postcode" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "addr:province" FieldName = "province" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "addr:state" FieldName = "state" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "addr:street" FieldName = "street" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "addr:subdistrict" FieldName = "subdistrct" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "addr:suburb" FieldName = "suburb" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "annotation_tag_table">
+		<Field TagName = "attribution" FieldName = "attributn" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "comment" FieldName = "comment" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "description" FieldName = "descriptn" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "email" FieldName = "email" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "fax" FieldName = "fax" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "fixme" FieldName = "fixme" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "image" FieldName = "image" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "note" FieldName = "note" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "phone" FieldName = "phone" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "source" FieldName = "source" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "source:name" FieldName = "source_nm" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "source:ref" FieldName = "source_ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "source_ref" FieldName = "source_ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "todo" FieldName = "todo" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "url" FieldName = "url" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "website" FieldName = "website" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "wikipedia" FieldName = "wikipedia" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "name_tag_table">
+		<Field TagName = "alt_name" FieldName = "alt_name" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "alt_name_1" FieldName = "alt_name_1" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "int_name" FieldName = "int_name" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "loc_name" FieldName = "loc_name" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name:left" FieldName = "name_left" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name:right" FieldName = "name_right" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "nat_name" FieldName = "nat_name" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "official_name" FieldName = "off_name" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "old_name" FieldName = "old_name" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "reg_name" FieldName = "reg_name" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "short_name" FieldName = "short_name" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "sorting_name" FieldName = "srt_name" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "properties_tag_table">
+		<Field TagName = "area" FieldName = "area" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "bridge" FieldName = "bridge" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "covered" FieldName = "covered" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "crossing" FieldName = "crossing" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "cutting" FieldName = "cutting" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "disused" FieldName = "disused" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "drive_in" FieldName = "drive_in" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "drive_through" FieldName = "drv_thrgh" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ele" FieldName = "ele" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "electrified" FieldName = "electrifd" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "embankment" FieldName = "embankment" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "end_date" FieldName = "end_date" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "est_width" FieldName = "est_width" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "fire_object:type" FieldName = "fr_obj_tp" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "fire_operator" FieldName = "operator" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "fire_rank" FieldName = "fire_rank" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "frequency" FieldName = "frequency" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "inscription" FieldName = "inscriptn" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "internet_access" FieldName = "intrnt_acs" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "layer" FieldName = "layer" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "leaf_cycle" FieldName = "leaf_cycle" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "leaf_type" FieldName = "leaf_type" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "location" FieldName = "location" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "narrow" FieldName = "narrow" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "nudism" FieldName = "nudism" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "opening_hours" FieldName = "opening_hr" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "operator" FieldName = "operator" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "service_times" FieldName = "service_tm" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "start_date" FieldName = "start_date" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tactile_paving" FieldName = "paving" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tidal" FieldName = "tidal" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "TMC:LocationCode" FieldName = "TMC_LocCd" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "toilets:wheelchair" FieldName = "tl_whlchr" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tunnel" FieldName = "tunnel" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "wheelchair" FieldName = "wheelchair" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "width" FieldName = "width" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "wood" FieldName = "wood" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "references_tag_table">
+		<Field TagName = "iata" FieldName = "iata" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "icao" FieldName = "icao" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "int_ref" FieldName = "int_ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "lcn_ref" FieldName = "lcn_ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "loc_ref" FieldName = "loc_ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "nat_ref" FieldName = "nat_ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ncn_ref" FieldName = "ncn_ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "old_ref" FieldName = "old_ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "rcn_ref" FieldName = "rcn_ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ref" FieldName = "ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "reg_ref" FieldName = "reg_ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "source_ref" FieldName = "source_ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	<Pattern name = "smoothness_tag_table">
+		<Field TagName = "bicycle" FieldName = "bicycle" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "foot" FieldName = "foot" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "highway" FieldName = "highway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "lanes" FieldName = "lanes" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "lit" FieldName = "lit" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "maxspeed" FieldName = "maxspeed" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "name" FieldName = "name" Priority = "1" FieldType = "String" FieldTypeLength = "254" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "oneway" FieldName = "oneway" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "practicability" FieldName = "practicblt" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "ref" FieldName = "ref" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "surface" FieldName = "surface" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "surface:color" FieldName = "surfc_clr" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "surface_survey" FieldName = "surfc_srv" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "tracktype" FieldName = "tracktype" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+		<Field TagName = "width" FieldName = "width" Priority = "1" FieldType = "String" FieldTypeLength = "20" FieldTypeScale = "0" FieldTypePrecision = "0" FieldFormula = "None"/>
+	</Pattern>
+	
+	</Field_patterns>
+	
+	<Filter_conditions>
+		<!-- POINTS FILTER CONDITIONS -->
+		<Condition name = "aerialway_pnt_filter_condition_table">
+			<Filter tag_name = "aerialway" tag_value = ""/>
+		</Condition>
+		<Condition name = "aeroway_pnt_filter_condition_table">
+			<Filter tag_name = "aeroway" tag_value = ""/>
+		</Condition>
+		<Condition name = "amenity_pnt_filter_condition_table">
+			<Filter tag_name = "amenity" tag_value = ""/>
+		</Condition>
+		<Condition name = "historic_pnt_filter_condition_table">
+			<Filter tag_name = "historic" tag_value = ""/>
+		</Condition>
+		<Condition name = "landuse_pnt_filter_condition_table">
+			<Filter tag_name = "landuse" tag_value = ""/>
+		</Condition>
+		<Condition name = "leisure_pnt_filter_condition_table">
+			<Filter tag_name = "leisure" tag_value = ""/>
+		</Condition>
+		<Condition name = "natural_pnt_filter_condition_table">
+			<Filter tag_name = "natural" tag_value = ""/>
+		</Condition>
+		<Condition name = "shop_pnt_filter_condition_table">
+			<Filter tag_name = "shop" tag_value = ""/>
+		</Condition>
+		<Condition name = "place_pnt_filter_condition_table">
+			<Filter tag_name = "place" tag_value = ""/>
+		</Condition>
+		<Condition name = "tourism_pnt_filter_condition_table">
+			<Filter tag_name = "tourism" tag_value = ""/>
+		</Condition>
+		<Condition name = "railway_pnt_filter_condition_table">
+			<Filter tag_name = "railway" tag_value = ""/>
+		</Condition>
+		<Condition name = "traffic_calming_pnt_filter_condition_table">
+			<Filter tag_name = "traffic_calming" tag_value = ""/>
+		</Condition>
+		<Condition name = "traffic_pnt_filter_condition_table">
+			<Filter tag_name = "highway" tag_value = ""/>
+		</Condition>
+		<Condition name = "public_transport_pnt_filter_condition_table">
+			<Filter tag_name = "public_transport" tag_value = ""/>
+		</Condition>
+		<Condition name = "power_pnt_filter_condition_table">
+			<Filter tag_name = "power" tag_value = ""/>
+		</Condition>
+		<Condition name = "barrier_pnt_filter_condition_table">
+			<Filter tag_name = "barrier" tag_value = ""/>
+		</Condition>
+		<Condition name = "emergency_pnt_filter_condition_table">
+			<Filter tag_name = "emergency" tag_value = ""/>
+		</Condition>
+		<Condition name = "craft_pnt_filter_condition_table">
+			<Filter tag_name = "craft" tag_value = ""/>
+		</Condition>
+		<Condition name = "geological_pnt_filter_condition_table">
+			<Filter tag_name = "geological" tag_value = ""/>
+		</Condition>
+		<Condition name = "man_made_pnt_filter_condition_table">
+			<Filter tag_name = "man_made" tag_value = ""/>
+		</Condition>
+		<Condition name = "military_pnt_filter_condition_table">
+			<Filter tag_name = "military" tag_value = ""/>
+		</Condition>
+		<Condition name = "office_pnt_filter_condition_table">
+			<Filter tag_name = "office" tag_value = ""/>
+		</Condition>
+		<Condition name = "sport_pnt_filter_condition_table">
+			<Filter tag_name = "sport" tag_value = ""/>
+		</Condition>
+		<!-- POLYLINE FILTER CONDITIONS -->
+		<Condition name = "aerialway_ln_filter_condition_table">
+			<Filter tag_name = "aerialway" tag_value = ""/>
+		</Condition>
+		<Condition name = "boundary_ln_filter_condition_table">
+			<Filter tag_name = "boundary" tag_value = ""/>
+		</Condition>
+		<Condition name = "highway_ln_filter_condition_table">
+			<Filter tag_name = "highway" tag_value = ""/>
+		</Condition>
+		<Condition name = "natural_ln_filter_condition_table">
+			<Filter tag_name = "natural" tag_value = ""/>
+		</Condition>
+		<Condition name = "railway_ln_filter_condition_table">
+			<Filter tag_name = "railway" tag_value = ""/>
+		</Condition>
+		<Condition name = "route_ln_filter_condition_table">
+			<Filter tag_name = "route" tag_value = ""/>
+		</Condition>
+		<Condition name = "waterway_ln_filter_condition_table">
+			<Filter tag_name = "waterway" tag_value = ""/>
+		</Condition>
+		<Condition name = "power_ln_filter_condition_table">
+			<Filter tag_name = "power" tag_value = ""/>
+		</Condition>
+		<Condition name = "barrier_ln_filter_condition_table">
+			<Filter tag_name = "barrier" tag_value = ""/>
+		</Condition>
+		<Condition name = "man_made_ln_filter_condition_table">
+			<Filter tag_name = "man_made" tag_value = ""/>
+		</Condition>
+		<Condition name = "public_transport_ln_filter_condition_table">
+			<Filter tag_name = "public_transport" tag_value = ""/>
+		</Condition>
+		<Condition name = "sport_ln_filter_condition_table">
+			<Filter tag_name = "sport" tag_value = ""/>
+		</Condition>
+		<Condition name = "traffic_calming_ln_filter_condition_table">
+			<Filter tag_name = "traffic_calming" tag_value = ""/>
+		</Condition>
+		<!-- POLYGONS FILTER CONDITIONS -->
+		<Condition name = "aerialway_ply_filter_condition_table">
+			<Filter tag_name = "aerialway" tag_value = ""/>
+		</Condition>
+		<Condition name = "aeroway_ply_filter_condition_table">
+			<Filter tag_name = "aeroway" tag_value = ""/>
+		</Condition>
+		<Condition name = "amenity_ply_filter_condition_table">
+			<Filter tag_name = "amenity" tag_value = ""/>
+		</Condition>
+		<Condition name = "boundary_ply_filter_condition_table">
+			<Filter tag_name = "boundary" tag_value = ""/>
+		</Condition>
+		<Condition name = "building_ply_filter_condition_table">
+			<Filter tag_name = "building" tag_value = ""/>
+		</Condition>
+		<Condition name = "landuse_ply_filter_condition_table">
+			<Filter tag_name = "landuse" tag_value = ""/>
+		</Condition>
+		<Condition name = "leisure_ply_filter_condition_table">
+			<Filter tag_name = "leisure" tag_value = ""/>
+		</Condition>
+		<Condition name = "natural_ply_filter_condition_table">
+			<Filter tag_name = "natural" tag_value = ""/>
+		</Condition>
+		<Condition name = "water_ply_filter_condition_table">
+			<Filter tag_name = "water" tag_value = ""/>
+		</Condition>
+		<Condition name = "waterway_ply_filter_condition_table">
+			<Filter tag_name = "waterway" tag_value = ""/>
+		</Condition>
+		<Condition name = "tourism_ply_filter_condition_table">
+			<Filter tag_name = "tourism" tag_value = ""/>
+		</Condition>
+		<Condition name = "barrier_ply_filter_condition_table">
+			<Filter tag_name = "barrier" tag_value = ""/>
+		</Condition>
+		<Condition name = "craft_ply_filter_condition_table">
+			<Filter tag_name = "craft" tag_value = ""/>
+		</Condition>
+		<Condition name = "emergency_ply_filter_condition_table">
+			<Filter tag_name = "emergency" tag_value = ""/>
+		</Condition>
+		<Condition name = "geological_ply_filter_condition_table">
+			<Filter tag_name = "geological" tag_value = ""/>
+		</Condition>
+		<Condition name = "historic_ply_filter_condition_table">
+			<Filter tag_name = "historic" tag_value = ""/>
+		</Condition>
+		<Condition name = "man_made_ply_filter_condition_table">
+			<Filter tag_name = "man_made" tag_value = ""/>
+		</Condition>
+		<Condition name = "military_ply_filter_condition_table">
+			<Filter tag_name = "military" tag_value = ""/>
+		</Condition>
+		<Condition name = "office_ply_filter_condition_table">
+			<Filter tag_name = "office" tag_value = ""/>
+		</Condition>
+		<Condition name = "place_ply_filter_condition_table">
+			<Filter tag_name = "place" tag_value = ""/>
+		</Condition>
+		<Condition name = "public_transport_ply_filter_condition_table">
+			<Filter tag_name = "public_transport" tag_value = ""/>
+		</Condition>
+		<Condition name = "railway_ply_filter_condition_table">
+			<Filter tag_name = "railway" tag_value = ""/>
+		</Condition>
+		<Condition name = "shop_ply_filter_condition_table">
+			<Filter tag_name = "shop" tag_value = ""/>
+		</Condition>
+		<Condition name = "sport_ply_filter_condition_table">
+			<Filter tag_name = "sport" tag_value = ""/>
+		</Condition>
+		<Condition name = "power_ply_filter_condition_table">
+			<Filter tag_name = "power" tag_value = ""/>
+		</Condition>
+		<!-- POLYLINES from Way and Relation -->
+		<Condition name = "restriction_ln_filter_condition_table">
+			<Filter tag_name = "access" tag_value = ""/>
+			<Filter tag_name = "agricultural" tag_value = ""/>
+			<Filter tag_name = "atv" tag_value = ""/>
+			<Filter tag_name = "bdouble" tag_value = ""/>
+			<Filter tag_name = "bicycle" tag_value = ""/>
+			<Filter tag_name = "boat" tag_value = ""/>
+			<Filter tag_name = "emergency" tag_value = ""/>
+			<Filter tag_name = "foot" tag_value = ""/>
+			<Filter tag_name = "forestry" tag_value = ""/>
+			<Filter tag_name = "goods" tag_value = ""/>
+			<Filter tag_name = "hazmat" tag_value = ""/>
+			<Filter tag_name = "hgv" tag_value = ""/>
+			<Filter tag_name = "horse" tag_value = ""/>
+			<Filter tag_name = "inline_skates" tag_value = ""/>
+			<Filter tag_name = "lhv" tag_value = ""/>
+			<Filter tag_name = "mofa" tag_value = ""/>
+			<Filter tag_name = "moped" tag_value = ""/>
+			<Filter tag_name = "motorboat" tag_value = ""/>
+			<Filter tag_name = "motorcar" tag_value = ""/>
+			<Filter tag_name = "motorcycle" tag_value = ""/>
+			<Filter tag_name = "motor_vehicle" tag_value = ""/>
+			<Filter tag_name = "psv" tag_value = ""/>
+			<Filter tag_name = "roadtrain" tag_value = ""/>
+			<Filter tag_name = "ski" tag_value = ""/>
+			<Filter tag_name = "tank" tag_value = ""/>
+			<Filter tag_name = "vehicle" tag_value = ""/>
+			<Filter tag_name = "4wd_only" tag_value = ""/>
+			<Filter tag_name = "maxheight" tag_value = ""/>
+			<Filter tag_name = "maxlength" tag_value = ""/>
+			<Filter tag_name = "maxspeed" tag_value = ""/>
+			<Filter tag_name = "maxstay" tag_value = ""/>
+			<Filter tag_name = "maxweight" tag_value = ""/>
+			<Filter tag_name = "maxwidth" tag_value = ""/>
+			<Filter tag_name = "minspeed" tag_value = ""/>
+			<Filter tag_name = "noexit" tag_value = ""/>
+			<Filter tag_name = "oneway" tag_value = ""/>
+			<Filter tag_name = "type" tag_value = "restriction*"/>
+			<Filter tag_name = "restriction" tag_value = ""/>
+		</Condition>
+		<!-- TABLES -->
+		<Condition name = "contact_filter_condition_table">
+			<Filter tag_name = "contact:phone" tag_value = ""/>
+			<Filter tag_name = "contact:fax" tag_value = ""/>
+			<Filter tag_name = "contact:website" tag_value = ""/>
+			<Filter tag_name = "contact:email" tag_value = ""/>
+			<Filter tag_name = "contact:facebook" tag_value = ""/>
+			<Filter tag_name = "contact:twitter" tag_value = ""/>
+			<Filter tag_name = "contact:google_plus" tag_value = ""/>
+			<Filter tag_name = "contact:linkedin" tag_value = ""/>
+			<Filter tag_name = "contact:instagram" tag_value = ""/>
+			<Filter tag_name = "contact:diaspora" tag_value = ""/>
+			<Filter tag_name = "contact:xing" tag_value = ""/>
+			<Filter tag_name = "contact:webcam" tag_value = ""/>
+			<Filter tag_name = "contact:vhf" tag_value = ""/>
+			<Filter tag_name = "phone" tag_value = ""/>
+			<Filter tag_name = "fax" tag_value = ""/>
+			<Filter tag_name = "website" tag_value = ""/>
+			<Filter tag_name = "email" tag_value = ""/>
+			<Filter tag_name = "facebook" tag_value = ""/>
+			<Filter tag_name = "twitter" tag_value = ""/>
+			<Filter tag_name = "google_plus" tag_value = ""/>
+			<Filter tag_name = "linkedin" tag_value = ""/>
+			<Filter tag_name = "webcam" tag_value = ""/>
+			<Filter tag_name = "vhf" tag_value = ""/>
+		</Condition>
+		<Condition name = "addresses_filter_condition_table">
+			<Filter tag_name = "addr:housenumber" tag_value = ""/>
+			<Filter tag_name = "addr:housename" tag_value = ""/>
+			<Filter tag_name = "addr:street" tag_value = ""/>
+			<Filter tag_name = "addr:place" tag_value = ""/>
+			<Filter tag_name = "addr:postcode" tag_value = ""/>
+			<Filter tag_name = "addr:flats" tag_value = ""/>
+			<Filter tag_name = "addr:city" tag_value = ""/>
+			<Filter tag_name = "addr:country" tag_value = ""/>
+			<Filter tag_name = "addr:full" tag_value = ""/>
+			<Filter tag_name = "addr:hamlet" tag_value = ""/>
+			<Filter tag_name = "addr:suburb" tag_value = ""/>
+			<Filter tag_name = "addr:subdistrict" tag_value = ""/>
+			<Filter tag_name = "addr:district" tag_value = ""/>
+			<Filter tag_name = "addr:province" tag_value = ""/>
+			<Filter tag_name = "addr:state" tag_value = ""/>
+			<Filter tag_name = "addr:interpolation" tag_value = ""/>
+			<Filter tag_name = "addr:interpolation" tag_value = ""/>
+			<Filter tag_name = "addr:inclusion" tag_value = ""/>
+		</Condition>
+		<Condition name = "annotation_filter_condition_table">
+			<Filter tag_name = "attribution" tag_value = ""/>
+			<Filter tag_name = "comment" tag_value = ""/>
+			<Filter tag_name = "description" tag_value = ""/>
+			<Filter tag_name = "email" tag_value = ""/>
+			<Filter tag_name = "fax" tag_value = ""/>
+			<Filter tag_name = "fixme" tag_value = ""/>
+			<Filter tag_name = "image" tag_value = ""/>
+			<Filter tag_name = "note" tag_value = ""/>
+			<Filter tag_name = "phone" tag_value = ""/>
+			<Filter tag_name = "source" tag_value = ""/>
+			<Filter tag_name = "source:name" tag_value = ""/>
+			<Filter tag_name = "source:ref" tag_value = ""/>
+			<Filter tag_name = "source_ref" tag_value = ""/>
+			<Filter tag_name = "todo" tag_value = ""/>
+			<Filter tag_name = "url" tag_value = ""/>
+			<Filter tag_name = "website" tag_value = ""/>
+			<Filter tag_name = "wikipedia" tag_value = ""/>
+		</Condition>
+		<Condition name = "name_filter_condition_table">
+			<Filter tag_name = "name" tag_value = ""/>
+			<Filter tag_name = "name:*" tag_value = ""/>
+			<Filter tag_name = "name:left" tag_value = ""/>
+			<Filter tag_name = "name:right" tag_value = ""/>
+			<Filter tag_name = "alt_name" tag_value = ""/>
+			<Filter tag_name = "alt_name:*" tag_value = ""/>
+			<Filter tag_name = "alt_name_1" tag_value = ""/>
+			<Filter tag_name = "int_name" tag_value = ""/>
+			<Filter tag_name = "loc_name" tag_value = ""/>
+			<Filter tag_name = "nat_name" tag_value = ""/>
+			<Filter tag_name = "official_name" tag_value = ""/>
+			<Filter tag_name = "old_name" tag_value = ""/>
+			<Filter tag_name = "old_name:*" tag_value = ""/>
+			<Filter tag_name = "reg_name" tag_value = ""/>
+			<Filter tag_name = "short_name" tag_value = ""/>
+			<Filter tag_name = "sorting_name" tag_value = ""/>
+		</Condition>
+		<Condition name = "properties_filter_condition_table">
+			<Filter tag_name = "area" tag_value = ""/>
+			<Filter tag_name = "bridge" tag_value = ""/>
+			<Filter tag_name = "covered" tag_value = ""/>
+			<Filter tag_name = "crossing" tag_value = ""/>
+			<Filter tag_name = "cutting" tag_value = ""/>
+			<Filter tag_name = "disused" tag_value = ""/>
+			<Filter tag_name = "drive_through" tag_value = ""/>
+			<Filter tag_name = "drive_in" tag_value = ""/>
+			<Filter tag_name = "electrified" tag_value = ""/>
+			<Filter tag_name = "ele" tag_value = ""/>
+			<Filter tag_name = "embankment" tag_value = ""/>
+			<Filter tag_name = "end_date" tag_value = ""/>
+			<Filter tag_name = "est_width" tag_value = ""/>
+			<Filter tag_name = "fire_object:type" tag_value = ""/>
+			<Filter tag_name = "fire_operator" tag_value = ""/>
+			<Filter tag_name = "fire_rank" tag_value = ""/>
+			<Filter tag_name = "frequency" tag_value = ""/>
+			<Filter tag_name = "inscription" tag_value = ""/>
+			<Filter tag_name = "internet_access" tag_value = ""/>
+			<Filter tag_name = "layer" tag_value = ""/>
+			<Filter tag_name = "leaf_cycle" tag_value = ""/>
+			<Filter tag_name = "leaf_type" tag_value = ""/>
+			<Filter tag_name = "location" tag_value = ""/>
+			<Filter tag_name = "narrow" tag_value = ""/>
+			<Filter tag_name = "nudism" tag_value = ""/>
+			<Filter tag_name = "opening_hours" tag_value = ""/>
+			<Filter tag_name = "operator" tag_value = ""/>
+			<Filter tag_name = "start_date" tag_value = ""/>
+			<Filter tag_name = "service_times" tag_value = ""/>
+			<Filter tag_name = "tactile_paving" tag_value = ""/>
+			<Filter tag_name = "tidal" tag_value = ""/>
+			<Filter tag_name = "TMC:LocationCode" tag_value = ""/>
+			<Filter tag_name = "tunnel" tag_value = ""/>
+			<Filter tag_name = "toilets:wheelchair" tag_value = ""/>
+			<Filter tag_name = "wheelchair" tag_value = ""/>
+			<Filter tag_name = "width" tag_value = ""/>
+			<Filter tag_name = "wood" tag_value = ""/>
+		</Condition>
+		<Condition name = "references_filter_condition_table">
+			<Filter tag_name = "iata" tag_value = ""/>
+			<Filter tag_name = "icao" tag_value = ""/>
+			<Filter tag_name = "int_ref" tag_value = ""/>
+			<Filter tag_name = "lcn_ref" tag_value = ""/>
+			<Filter tag_name = "loc_ref" tag_value = ""/>
+			<Filter tag_name = "nat_ref" tag_value = ""/>
+			<Filter tag_name = "ncn_ref" tag_value = ""/>
+			<Filter tag_name = "old_ref" tag_value = ""/>
+			<Filter tag_name = "rcn_ref" tag_value = ""/>
+			<Filter tag_name = "ref" tag_value = ""/>
+			<Filter tag_name = "reg_ref" tag_value = ""/>
+			<Filter tag_name = "source_ref" tag_value = ""/>
+		</Condition>
+		<Condition name = "smoothness_filter_condition_table">
+			<Filter tag_name = "smoothness" tag_value = "excellent"/>
+			<Filter tag_name = "smoothness" tag_value = "good"/>
+			<Filter tag_name = "smoothness" tag_value = "intermediate"/>
+			<Filter tag_name = "smoothness" tag_value = "bad"/>
+			<Filter tag_name = "smoothness" tag_value = "very_bad"/>
+			<Filter tag_name = "smoothness" tag_value = "horrible"/>
+			<Filter tag_name = "smoothness" tag_value = "very_horrible"/>
+			<Filter tag_name = "smoothness" tag_value = "impassable"/>
+		</Condition>	
+		
+	</Filter_conditions>
+</OSM_layer_extraction>
